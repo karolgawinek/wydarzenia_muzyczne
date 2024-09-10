@@ -1,8 +1,28 @@
 # Listy globalne
 koncerty = []
+#Strukutura Koncertu
+# nowy_koncert = {
+#     "id": znajdz_nowe_id(koncerty),
+#     "nazwa": nazwa,
+#     "data": data,
+#     "lokalizacja": lokalizacja,
+#     "współrzędne": (wsp_x, wsp_y),
+#     "zespoły": [],
+#     "klienci": []
+# }
 zespoly = []
+#Struktura zespoołu
+# {      "id": znajdz_nowe_id(zespoly),
+#         "nazwa": nazwa,
+#         "gatunek": gatunek,
+#         "koncerty": []
+#     }
 klienci = []
-
+#Struktura klienta
+# "id": znajdz_nowe_id(klienci),
+# "imie": imie,
+ # "nazwisko": nazwisko,
+# "email": email
 
 # Główna funkcja
 def main():
