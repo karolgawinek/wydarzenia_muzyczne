@@ -204,7 +204,8 @@ def main():
         print("5. Aktualizuj koncert")
         print("6. Zarządzaj zespołami w koncertach")
         print("7. Zarządzaj klientami")
-        print("8. Zakończ")
+        print("8. Generuj Mape Koncertów")
+        print("9. Zakończ")
 
         wybor = input("Twój wybór: ")
 
@@ -226,6 +227,8 @@ def main():
         elif wybor == "7":
             zarzadzaj_klientami()
         elif wybor == "8":
+            generuj_mape()
+        elif wybor == "9":
             print("Kończymy program.")
             break
         else:
