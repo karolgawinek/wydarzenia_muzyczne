@@ -21,7 +21,7 @@ klienci = []
 #Struktura klienta
 # "id": znajdz_nowe_id(klienci),
 # "imie": imie,
- # "nazwisko": nazwisko,
+# "nazwisko": nazwisko,
 # "email": email
 
 # Główna funkcja
